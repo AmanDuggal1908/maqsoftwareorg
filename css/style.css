@@ -1587,7 +1587,7 @@ form label.error {
         .logo a img {
             width: 100%;
             position: absolute;
-            top: 0;
+            top: 17px;
             left: -15px;
             transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
             -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
