@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background-color: #ffffff;
 }
 
 a {
@@ -215,7 +215,7 @@ header h1 {
   position: relative;
   margin-left: 60px;
   background: white;
-  border-radius: 0.25em;
+  border-radius: 03.25em;
   padding: 1em;
   -webkit-box-shadow: 0 3px 0 #d7e4ed;
           box-shadow: 0 3px 0 #d7e4ed;
@@ -253,6 +253,7 @@ header h1 {
 .cd-timeline__content p {
   margin: 1em 0;
   line-height: 1.6;
+  color: white;
 }
 
 .cd-timeline__read-more,
@@ -263,7 +264,7 @@ header h1 {
 .cd-timeline__read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background:#5bc0de;
   color: white;
   border-radius: 0.25em;
 }
@@ -275,12 +276,14 @@ header h1 {
 .cd-timeline__date {
   float: left;
   padding: .8em 0;
-  opacity: .7;
+  opacity: 4.7;
+  color: white
 }
 
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
     font-size: 2rem;
+    color: white;
   }
   .cd-timeline__content p {
     font-size: 1.6rem;
@@ -299,6 +302,7 @@ header h1 {
     /* Force Hardware Acceleration */
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
+    background-color:rgba(32,32,32,0.8);
   }
   .cd-timeline__content::before {
     top: 24px;
