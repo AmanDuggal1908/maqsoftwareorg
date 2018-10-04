@@ -1588,7 +1588,7 @@ form label.error {
             width: 100%;
             position: absolute;
             top: 17px;
-            left: -15px;
+            left: 0px;
             transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
             -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
             -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
