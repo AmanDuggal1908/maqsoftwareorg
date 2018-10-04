@@ -18,8 +18,11 @@ body {
 }
 
 a {
-  color: #acb7c0;
-  text-decoration: none;
+  float: right;
+    padding: .8em 1em;
+    background: #5bc0de;
+    color: white;
+    border-radius: 0.25em;
 }
 
 img {
