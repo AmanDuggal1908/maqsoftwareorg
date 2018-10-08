@@ -750,7 +750,7 @@ form label.error {
 }
 
 .ptb {
-    padding-top: 110px;
+    padding-top: 40px;
     padding-bottom: 110px;
 }
 
@@ -879,7 +879,7 @@ form label.error {
 }
 
 .pb-60 {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 }
 
 .ptb-60 {
@@ -1312,8 +1312,8 @@ form label.error {
     }
 
     .ptb-sm-80 {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .pb-sm-80 {
