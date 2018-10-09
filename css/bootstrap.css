@@ -1191,6 +1191,13 @@ pre {
         max-width: 41.666667%;
     }
 
+
+
+
+
+
+
+
     .col-sm-6 {
         -webkit-box-flex: 0;
         -webkit-flex: 0 0 50%;
@@ -1206,6 +1213,18 @@ pre {
         flex: 0 0 58.333333%;
         max-width: 58.333333%;
     }
+
+
+.million{
+
+    border-left: 1px solid #d7d7d7;
+    padding: 30px 0px 0px 70px;
+    text-align: right;
+}
+
+
+
+
 
     .col-sm-8 {
         -webkit-box-flex: 0;

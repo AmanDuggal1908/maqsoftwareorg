@@ -108,6 +108,12 @@ a, a:focus, a:active, a:link, img {
 
 
 
+
+
+
+
+
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -767,6 +773,61 @@ form label.error {
     color: #0052F5;
 
 }
+
+
+
+
+
+.impactareastext{
+
+    flex: 0 0 41.666667%;
+    max-width: 454px;
+    max-height: 334px;
+    float:right
+
+}
+
+.impactareasimage
+
+{
+    height: 334px;
+    max-width: 632px;
+    max-height: 311px;
+    border: none;
+    float: right;
+
+}
+
+
+
+
+.KeyAreas{
+
+    max-height: 334px;
+    max-width: 651px;
+    float: right;
+  
+}
+
+
+
+
+.row{
+
+   padding-bottom: 55px; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 #vision{
@@ -3505,6 +3566,244 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     display: table;
     content: " ";
 }
+
+
+.testcontainer{
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+    .testcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .testcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .testcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+    .testcontainer {
+        width: 540px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .testcontainer {
+        width: 720px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testcontainer {
+        width: 960px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .testcontainer {
+        width: 1140px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.learnmore:hover {font-size:120%;}
+
+a.learnmore:link{
+    color: #0052F5;
+opacity: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nf-row1:after, .nf-row2:after {
     clear: both;
