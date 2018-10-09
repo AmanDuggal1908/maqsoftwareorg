@@ -3672,11 +3672,17 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 
 
-a.learnmore:hover {font-size:120%;}
+a.learnmore:hover {
+    
+    font-size:120%;
+}
 
-a.learnmore:link{
+
+a.learnmore:link
+{
     color: #0052F5;
-opacity: 100%;
+
+
 }
 
 
