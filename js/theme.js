@@ -221,7 +221,7 @@ $(function () {
         $('.fullwidth-slider').owlCarousel({
             slideSpeed: 400,
             singleItem: true,
-            autoHeight: true,
+            autoHeight: false,
             navigation: true,  // Show next and prev buttons
             pagination: true,  // Show pagination buttons
             navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
@@ -237,14 +237,14 @@ $(function () {
             singleItem: true,
             navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             autoPlay: false,
-            autoHeight: true,
+            autoHeight: false,
             responsive: true
         });
 
         // Testimonial Slider
         $('.testimonial-carousel').owlCarousel({
             autoPlay: true,
-            autoHeight: true,
+            autoHeight: false,
             stopOnHover: true,
             singleItem: true,
             slideSpeed: 350,
@@ -285,7 +285,7 @@ $(function () {
         // Content Slider
         $('.content-carousel').owlCarousel({
             autoPlay: true,
-            autoHeight: true,
+            autoHeight: false,
             stopOnHover: true,
             singleItem: true,
             slideSpeed: 500,
@@ -340,7 +340,7 @@ $(function () {
         // Item-1 Carousel
         $('.item1-carousel').owlCarousel({
             autoPlay: false,
-            autoHeight: true,
+            autoHeight: false,
             stopOnHover: true,
             singleItem: true,
             slideSpeed: 350,
