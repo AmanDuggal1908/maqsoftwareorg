@@ -797,10 +797,6 @@ form label.error {
     float: right;
 
 }
-
-
-
-
 .KeyAreas{
 
     max-height: 334px;
@@ -808,35 +804,30 @@ form label.error {
     float: right;
   
 }
-
-
-
-
 .row{
 
    padding-bottom: 40px; 
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 #vision{
 
     margin-top: 52px;
     margin-bottom: 0px;
     text-align: center;
 }
+.million{
+    border-left: 1px solid #707070;
+    padding: 30px 0px 0px 70px;
+    text-align: center;
+}
 
+.testclass{
+    opacity: 100;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border: 1px solid #DFDFDF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    width: 632px; 
+    height: 250px;
+}
 .pt {
     padding-top: 110px;
 }
