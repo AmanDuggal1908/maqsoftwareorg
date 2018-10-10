@@ -74,7 +74,7 @@ body, html {
 body {
     line-height: 24px;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -201,7 +201,7 @@ ul.text-cap li, .text-cap {
 
 p {
     line-height: 20px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0px 0 10px 0;
     color: Black;
@@ -814,7 +814,7 @@ form label.error {
 
 .row{
 
-   padding-bottom: 55px; 
+   padding-bottom: 40px; 
 
 
 }
@@ -832,7 +832,7 @@ form label.error {
 
 #vision{
 
-    margin-top: 80px;
+    margin-top: 52px;
     margin-bottom: 0px;
     text-align: center;
 }
@@ -859,8 +859,8 @@ form label.error {
 }
 
 .ptb-10 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
 .pt-10 {
@@ -3276,6 +3276,8 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         height: 100%;
         content: "";
         z-index: -1;
+        padding-top: 110px;
+    padding-bottom: 110px;
     }
 
     .overlay-dark:before {
@@ -3283,7 +3285,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 
     .overlay-dark80:before {
-        background-color: rgba(32,32,32,0.8);
+        background-color:#323232;
     }
 
     .overlay-light:before {
@@ -3642,172 +3644,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 a.learnmore:link
 {
     color: #0052F5;
     font-weight: bold;
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .nf-row1:after, .nf-row2:after {
     clear: both;
