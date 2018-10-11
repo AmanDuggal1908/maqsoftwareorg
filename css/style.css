@@ -328,7 +328,7 @@ h2 {
     letter-spacing: 2px;
     line-height: 37px;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 
@@ -808,17 +808,60 @@ form label.error {
 
    padding-bottom: 40px; 
 }
-#vision{
+
+
+.vision{
 
     margin-top: 52px;
     margin-bottom: 0px;
     text-align: center;
+    size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
 }
-.million{
-    border-left: 1px solid #707070;
-    padding: 30px 0px 0px 70px;
+
+#visionn{
+
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0 10px 0;
+    color: Black;
+    letter-spacing: 1px;
+    padding-top: 75px;
+}
+
+
+
+
+
+
+
+.challenge{
+
+    padding-top: 5px;
+}
+
+
+
+
+
+
+.aftervision{
+
+    size: 17px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
+
+
+.million{
+    border-left: 2px solid #707070;
+    padding: 30px 0px 0px 70px;
+    text-align: right;
+}
+
 
 .testclass{
     opacity: 100;
@@ -2460,6 +2503,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     position: relative;
     width: 100%;
     display: block;
+    padding-top: 100px;
 }
 
     .footer hr {
@@ -3269,10 +3313,12 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         z-index: -1;
         padding-top: 110px;
     padding-bottom: 110px;
+
     }
 
     .overlay-dark:before {
         background-color: rgba(32,32,32,0.4);
+        opacity: 0.9;
     }
 
     .overlay-dark80:before {
@@ -3291,6 +3337,21 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     overflow: hidden;
     position: relative;
 }
+
+
+
+.opaquevideo
+{
+    
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 
 .content-cap-wraper {
     display: table;
@@ -3498,6 +3559,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         width: 100%;
         max-width: 720px;
         text-align: center;
+        opacity: 1.0;
     }
 
 
@@ -3634,6 +3696,293 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
         padding-bottom: 40px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.introstatement {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 26px;
+    padding-left: 26px;
+}
+
+@media (min-width: 576px) {
+    .introstatement {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .introstatement {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .introstatement {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .introstatement {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+    .introstatement {
+        width: 540px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .introstatement {
+        width: 720px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .introstatement {
+        width: 960px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .introstatement {
+        width: 1140px;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a.learnmore:link
 {
