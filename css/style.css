@@ -828,7 +828,7 @@ form label.error {
     margin: 0px 0 10px 0;
     color: Black;
     letter-spacing: 1px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 
@@ -1289,7 +1289,7 @@ form label.error {
 }
 
 .mb-30 {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .ml-30 {
@@ -3340,6 +3340,36 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .opaquevideo
 {
     
@@ -3351,6 +3381,167 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     width: 100%;
     z-index: 0;
 }
+
+.staticImage {
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+@media (min-width: 1200px) {
+    .opaquevideo {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .opaquevideo {
+        display: none;
+    }
+    .staticImage {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .opaquevideo {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .opaquevideo {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+/* @media (min-width: 576px) {
+    .opaquevideo {
+        width: 540px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .opaquevideo {
+        width: 720px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .opaquevideo {
+        width: 960px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .opaquevideo {
+        width: 1140px;
+        max-width: 100%;
+        padding-bottom: 40px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .content-cap-wraper {
@@ -6229,7 +6420,7 @@ li.h4header {
     letter-spacing: 2px;
     line-height: 23px;
     font-weight: 600;
-    height: 92px;
+    height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
