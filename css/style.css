@@ -3394,6 +3394,19 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 }
 
 
+@media (max-width: 576px) {
+    .opaquevideo {
+        display: none;     
+
+    }
+
+
+    .staticImage {
+        display: block;
+        
+    }
+}
+
 
 
 
