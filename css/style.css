@@ -817,7 +817,7 @@ form label.error {
     text-align: center;
     size: 30px;
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 #visionn{
@@ -828,7 +828,7 @@ form label.error {
     margin: 0px 0 10px 0;
     color: Black;
     letter-spacing: 1px;
-    padding-top: 75px;
+    padding-top: 80px;
 }
 
 
@@ -840,6 +840,7 @@ form label.error {
 .challenge{
 
     padding-top: 5px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -860,6 +861,7 @@ form label.error {
     border-left: 2px solid #707070;
     padding: 30px 0px 0px 70px;
     text-align: right;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -2922,6 +2924,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     font-size: 25px;
     margin-bottom: 15px;
     color: inherit;
+
 }
 
 .testimonial {
@@ -3806,9 +3809,11 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 26px;
+    padding-left: 26px;
     padding-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 @media (min-width: 576px) {
@@ -4164,8 +4169,9 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 a.learnmore:link
 {
-    color: #0052F5;
+    color: #0052F5!important;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nf-row1:after, .nf-row2:after {
