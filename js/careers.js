@@ -149,45 +149,29 @@ function checkScroll() {
     }
 };
 
+    function accordion() {
 
-var player;
-function onYouTubeIframeAPIReady() {
-    if (!isCareersPage())
-        return;
-    player = new YT.Player('video-player', {
-        events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-        }
-    });
+        $('.accordion-title').click(function (e) {
 
-};
+            $(this).next().slideToggle('easeOut');
+            $(this).toggleClass('active');
+            $("accordion-title").toggleClass('active');
+            $(".accordion-content").not($(this).next()).slideUp('easeIn');
+            $(".accordion-title").not($(this)).removeClass('active');
 
-// 4. The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-    window.addEventListener('scroll', checkScroll, false);
-    window.addEventListener('resize', checkScroll, false);
-    //check at least once so you don't have to wait for scrolling for the    video to start
-    window.addEventListener('load', checkScroll, false);
-};
+        });
+        $(".accordion-content").addClass("defualt-hidden");
+
+    };
+
+$("#indiaJob").on("click",function(){
+	$("#redmondJob").removeClass('active')
+})
+$("#redmondJob").on("click",function(){
+	$("#indiaJob").removeClass('active')
+})
 
 
-function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING) {
-        //console.log("event played");
-    } else {
-        //console.log("event paused");
-    }
-};
-
-function stopVideo() {
-    player.stopVideo();
-};
-
-function playVideo() {
-    player.playVideo();
-};
-
-function pauseVideo() {
-    player.pauseVideo();
-};
+$(document).ready ( function(){
+   careersConstructor();
+})
